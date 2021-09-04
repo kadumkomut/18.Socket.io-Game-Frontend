@@ -1,0 +1,98 @@
+.btn {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid lightgrey;
+    outline: none;
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all ease-in-out 0.1s;
+    border-radius: 5px;
+}
+
+.float-right {
+    float: right;
+}
+
+.fixedInfo {
+    position: fixed;
+    left:0;
+    padding: 15px;
+    border: 1px solid black;
+}
+.fixedInfo > ul {
+    list-style-type: none;
+}
+
+.btn:hover {
+    background-color: grey;
+    color:white;
+}
+
+.btn:disabled {
+    background: grey;
+    cursor: not-allowed;
+}
+
+.timer {
+    width: 100vw;
+    height: 100vh;
+    background:white;
+    opacity: 0.8;
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+    color: rgb(11, 65, 11);
+    font-size: 30px;
+    position: fixed;
+}
+
+.gridBox {
+    display: grid;
+    width: 60%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    margin: 30px auto;
+}
+
+.gridButton {
+    padding:40px 10px;
+    border:1px solid lightgrey;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.gridButton:disabled {
+    cursor: not-allowed;
+}
+.gridButton:hover {
+    background-color: grey;
+    color:white;
+}
+
+.w3-green {
+    background-color: rgb(22, 148, 22);
+    color: white;
+}
+.w3-red {
+    background-color: rgb(214, 37, 37);
+    color:white
+}
+
+.App {
+}
+
+.box {
+    width: 100vw;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+
+input {
+    padding:8px;
+    display:block;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    outline-color: rgb(8, 184, 184);
+    border:none;
+    border:1px solid #ccc;
+    width:100%
+}
